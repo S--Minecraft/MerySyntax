@@ -2,6 +2,9 @@ Mery Syntax
 ===================
 Mery(テキストエディタ)のシンタックスハイライトを置いてます  
   
+- coffee.msy
+ Coffeescript用
+  
 - lang-file.msy  
  Minecraft用のlangファイル用  
   
