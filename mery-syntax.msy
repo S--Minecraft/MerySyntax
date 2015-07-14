@@ -23,21 +23,24 @@ WholeWord
 Word Color
 
 #Word Color=1, WholeWord=False, RightSide=False, MatchCase=False, InsideTag=False, RegEx=False
-^#TagBegin
-^#TagEnd
-^#CommentBegin1
-^#CommentEnd1
-^#LineComment1
-^#CommentBegin2
-^#CommentEnd2
-^#LineComment2
-^#SpecialSyntax
-^#ScriptBegin
-^#ScriptEnd
-^#QuoteSingle
-^#QuoteDouble
-^#QuoteContinue
-^#EscapeCharacter
+TagBegin
+TagEnd
+CommentBegin1
+CommentEnd1
+LineComment1
+CommentBegin2
+CommentEnd2
+LineComment2
+SpecialSyntax
+ScriptBegin
+ScriptEnd
+QuoteSingle
+QuoteDouble
+QuoteContinue
+EscapeCharacter
+
+#Word Color=2, WholeWord=False, RightSide=False, MatchCase=False, InsideTag=False, RegEx=True
+^#
 
 #Word Color=3, WholeWord=False, RightSide=False, MatchCase=False, InsideTag=False, RegEx=False
 =
