@@ -1,0 +1,48 @@
+﻿#TagBegin=
+#TagEnd=
+#CommentBegin1=
+#CommentEnd1=
+#LineComment1=
+#CommentBegin2=
+#CommentEnd2=
+#LineComment2=
+#SpecialSyntax=None
+#ScriptBegin=
+#ScriptEnd=
+#QuoteSingle=False
+#QuoteDouble=False
+#QuoteContinue=False
+#EscapeCharacter=
+
+#Word Color=0, WholeWord=False, RightSide=False, MatchCase=False, InsideTag=False, RegEx=False
+InsideTag
+MatchCase
+RegEx
+RightSide
+WholeWord
+Word Color
+
+#Word Color=1, WholeWord=False, RightSide=False, MatchCase=False, InsideTag=False, RegEx=False
+^#TagBegin
+^#TagEnd
+^#CommentBegin1
+^#CommentEnd1
+^#LineComment1
+^#CommentBegin2
+^#CommentEnd2
+^#LineComment2
+^#SpecialSyntax
+^#ScriptBegin
+^#ScriptEnd
+^#QuoteSingle
+^#QuoteDouble
+^#QuoteContinue
+^#EscapeCharacter
+
+#Word Color=3, WholeWord=False, RightSide=False, MatchCase=False, InsideTag=False, RegEx=False
+=
+
+#Word Color=5, WholeWord=False, RightSide=False, MatchCase=False, InsideTag=False, RegEx=False
+False
+None
+True
