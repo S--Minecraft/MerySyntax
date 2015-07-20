@@ -11,10 +11,13 @@
 #ScriptEnd=
 #QuoteSingle=False
 #QuoteDouble=True
-#QuoteContinue=True
+#QuoteContinue=False
 #EscapeCharacter=\
 
 #Word Color=0, WholeWord=True, RightSide=False, MatchCase=True, InsideTag=False, RegEx=False
+->
+::
+=>
 abstract
 boolean
 break
@@ -72,23 +75,20 @@ try
 typeof
 void
 with
-->
-=>
-::
 
 #Word Color=2, WholeWord=True, RightSide=False, MatchCase=True, InsideTag=False, RegEx=False
-if
-else
-while
-for
 do
-then
-unless
-switch
-when
-until
+else
+for
+if
 in
 of
+switch
+then
+unless
+until
+when
+while
 
 #Word Color=3, WholeWord=True, RightSide=False, MatchCase=True, InsideTag=False, RegEx=False
 Anchor
@@ -143,50 +143,49 @@ screen
 window
 
 #Word Color=4, WholeWord=True, RightSide=False, MatchCase=True, InsideTag=False, RegEx=False
+!
+!==
+&&
+*
++
+++
+-
+--
+..
+...
+/
+:
+<
+<=
 =
 ==
 ===
-!==
-!
-++
---
-<
-<=
 >
 >=
--
-+
-*
-/
-new
-&&
-||
+?
+and
 is
 isnt
+new
 not
-and
 or
-?
-..
-...
-:
+||
 
 #Word Color=5, WholeWord=True, RightSide=False, MatchCase=True, InsideTag=False, RegEx=True
+"""(.|\n)*"""
+""(.|\n)*""
 /.*/
 ///.*///
-".*"
-""(.|\n|\r\n)*""
-"""(.|\n|\r\n)*"""
 
 #Word Color=6, WholeWord=True, RightSide=False, MatchCase=True, InsideTag=False, RegEx=False
-true
 false
-on
-off
-yes
 no
+off
+on
 this
+true
+yes
 
 #Word Color=6, WholeWord=True, RightSide=False, MatchCase=True, InsideTag=False, RegEx=True
 ^#\{.*\}
-@[^()\b]*
+@[^^(),\s]*
